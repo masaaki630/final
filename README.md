@@ -6,6 +6,6 @@
 
 氏名        ：木下　正章
 
-システム名  ：
+システム名  ：ニュースシステム管理
 
-URL         ：
+URL         ：https://github.com/masaaki630/final
