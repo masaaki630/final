@@ -66,7 +66,7 @@
         </main>
         <footer>
             <div class="container">
-                <p>Copyright @ 2018 SQUARE, inc</p>
+                <p>FF14のパッチ7.0が楽しみです</p>
             </div>
         </footer>
     </body>

@@ -4,7 +4,6 @@
     $content = isset($_POST['content'])? htmlspecialchars($_POST['content'], ENT_QUOTES, 'utf-8'):'';
     $content = nl2br($content);
 
-    //DB接続
     $dbh=new PDO($connect, USER, PASS);
 
     $stmt = $dbh->prepare("INSERT INTO news(
@@ -18,9 +17,9 @@
         now(),
         now()
     )");
-    $stmt->bindParam(':title',$title);   //:titleという変数に$titleをバインド
-    $stmt->bindParam(':content',$content);    //:contentという変数に$contentをバインド
-    $stmt->execute();    //$stmtを実行
+    $stmt->bindParam(':title',$title);
+    $stmt->bindParam(':content',$content);
+    $stmt->execute();
 
     header('location:./news.php');
 

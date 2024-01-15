@@ -14,7 +14,7 @@
         <header>
             <div class="container">
                 <div class="header-logo">
-                    <h1><a href="dashboard.php">管理画面</a></h1>
+                    <h1><a href="index.html">管理画面</a></h1>
                 </div>
             </div>
         </header>
@@ -40,7 +40,7 @@
         </main>
         <footer>
             <div class="container">
-                <p>Copyright @ 2018 SQUARE, inc</p>
+                <p>学生生活楽しかったです</p>
             </div>
         </footer>
     </body>

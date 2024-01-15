@@ -11,7 +11,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>記事管理</title>
@@ -24,7 +23,7 @@
         <header>
             <div class="container">
                 <div class="header-logo">
-                    <h1><a href="dashboard.php">管理画面</a></h1>
+                    <h1><a href="index.html">管理画面</a></h1>
                 </div>
             </div>
         </header>
@@ -72,7 +71,7 @@
         </main>
         <footer>
             <div class="container">
-                <p>Copyright @ 2018 SQUARE, inc</p>
+                <p>フッターを付けたけど書くことないです。2年間お世話になりました</p>
             </div>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -80,10 +79,8 @@
             $(".delete").click(function(){
                 var id = this.dataset.id;
                 if(confirm("ID:"+id+"番の記事を本当に削除していいですか？")){
-                    //OK
                     $("#delete_form_"+id).submit();
                 }else{
-                    //キャンセル
                     return false;
                 }
             })
