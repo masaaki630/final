@@ -8,4 +8,4 @@
 
 システム名  ：ニュースシステム管理
 
-URL         ：https://github.com/masaaki630/final
+URL         ：https://aso2201397.namaste.jp/php2/final/src/
