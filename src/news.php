@@ -23,7 +23,7 @@
         <header>
             <div class="container">
                 <div class="header-logo">
-                    <h1><a href="index.html">管理画面</a></h1>
+                    <h1><a href="index.html">ニュース</a></h1>
                 </div>
             </div>
         </header>
